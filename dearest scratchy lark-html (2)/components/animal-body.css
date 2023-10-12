@@ -1,0 +1,23 @@
+.animal-body-container {
+  width: 100%;
+  height: 1120px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  background-color: #BDBDBD;
+}
+.animal-body-pasted-image {
+  top: 41px;
+  right: 84px;
+  width: 163px;
+  height: 256px;
+  position: absolute;
+}
+.animal-body-text {
+  top: 200px;
+  left: 527px;
+  position: absolute;
+}
+.animal-body-root-class-name {
+  background-color: #BDBDBD;
+}

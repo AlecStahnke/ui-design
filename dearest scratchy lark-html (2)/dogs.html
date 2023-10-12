@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Dogs - Dearest Scratchy Lark</title>
+    <meta property="og:title" content="Dogs - Dearest Scratchy Lark" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./dogs.css" rel="stylesheet" />
+
+      <div class="dogs-container">
+        <header data-thq="thq-navbar" class="dogs-navbar-interactive">
+          <div data-thq="thq-navbar-nav" class="dogs-desktop-menu">
+            <img
+              alt="pastedImage"
+              src="public/external/pastedimage-awho-200h.png"
+              class="dogs-pasted-image"
+            />
+            <nav class="dogs-links">
+              <a href="index.html" class="dogs-navlink">Home</a>
+              <a href="dogs.html" class="dogs-navlink1">Dogs</a>
+              <a href="cats.html" class="dogs-navlink2">Cats</a>
+              <a href="birds.html" class="dogs-navlink3">Birds</a>
+            </nav>
+            <div class="dogs-buttons">
+              <button class="dogs-login button"><span>Login</span></button>
+              <button class="button">Register</button>
+            </div>
+          </div>
+          <div data-thq="thq-burger-menu" class="dogs-burger-menu">
+            <svg viewBox="0 0 1024 1024" class="dogs-icon">
+              <path
+                d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+              ></path>
+            </svg>
+          </div>
+          <div data-thq="thq-mobile-menu" class="dogs-mobile-menu">
+            <div class="dogs-nav">
+              <div class="dogs-top">
+                <img
+                  alt="image"
+                  src="https://presentation-website-assets.teleporthq.io/logos/logo.png"
+                  class="dogs-logo"
+                />
+                <div data-thq="thq-close-menu" class="dogs-close-menu">
+                  <svg viewBox="0 0 1024 1024" class="dogs-icon02">
+                    <path
+                      d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <nav class="dogs-links1">
+                <span class="dogs-text1">About</span>
+                <span class="dogs-text2">Features</span>
+                <span class="dogs-text3">Pricing</span>
+                <span class="dogs-text4">Team</span>
+                <span class="dogs-text5">Blog</span>
+              </nav>
+              <div class="dogs-buttons1">
+                <button class="dogs-login1 button">Login</button>
+                <button class="button">Register</button>
+              </div>
+            </div>
+            <div>
+              <svg viewBox="0 0 950.8571428571428 1024" class="dogs-icon04">
+                <path
+                  d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"
+                ></path></svg
+              ><svg viewBox="0 0 877.7142857142857 1024" class="dogs-icon06">
+                <path
+                  d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"
+                ></path></svg
+              ><svg viewBox="0 0 602.2582857142856 1024" class="dogs-icon08">
+                <path
+                  d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+        </header>
+        <div class="animal-body-container animal-body-root-class-name">
+          <img
+            alt="pastedImage"
+            src="public/external/pastedimage-n39m-300h.png"
+            class="animal-body-pasted-image"
+          />
+          <h1 class="animal-body-text"><span>Dog Owners</span></h1>
+          <span>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <span>
+              The domestic dog is an extremely social animal and offers a
+              diverse variety of choices as there are well over 300 breeds
+              recognized by the World Canine Organization. Adopting a dog offers
+              mutual benefits between dog and owner. Many studies cite the
+              social benefits of having a companion as well as the reduced
+              feelings of loneliness from adopting a dog. Studies even show
+              medical indicators such as reduced blood pressure and improved
+              lipid profiles. If you have a dog, it is important to make sure
+              that you care for your dog; be mindful of what you feed your dog
+              and provide enough opportunities for exercise. In this page, you
+              will find more information about how to care for your pets
+              throughout the various stages of their lives.
+            </span>
+            <br />
+            <br />
+            <br />
+            <br />
+            <span>Diet &amp; Exercise</span>
+            <br />
+            <br />
+            <span>
+              Throughout dogs’ lifespans, they should generally be fed fewer
+              meals as they mature. Puppies should be nursed the first two
+              months, then introduced to three meals per day when they are about
+              three to six months years old. Their food intake should be reduced
+              to two meals per day when they are six months to one year old and
+              finally reduced to one meal after they reach one year old. And a
+              dog’s typical body mass is composed of somewhere between 60 and 70
+              percent water. The ASPCA says just a 10 percent decrease in body
+              water can cause illness, and a 15 percent loss can cause death, so
+              make sure you keep your pooch hydrated!
+            </span>
+            <br />
+            <br />
+            <br />
+            <br />
+            <span>
+              Much like humans, dogs need to have a healthy level of activity to
+              keep their organs healthy, as well as sun and fresh air. The
+              minimum recommended time for exercise varies greatly with breed
+              and size differences, but generally a range of 30–120 minutes of
+              exercise is recommended per day! Can you imagine exercising two
+              hours per day? OK, I know that wouldn't bother some of you reading
+              this. But the thought of it to me makes me cringe! And by the way,
+              exercising your dog does not mean you are being challenged to a
+              push-up contest. Brisk walks are OK too! You can also choose from
+              a variety of toys to encourage physical activity; just be sure
+              they are age appropriate and do not pose a choking hazard. Pay
+              careful attention to toys that require supervision.
+            </span>
+            <br />
+            <br />
+            <br />
+            <br />
+            <span>Grooming &amp; Handling</span>
+            <br />
+            <br />
+            <span>
+              Keeping your furry family member clean is important to its health.
+              So be sure to brush frequently to reduce the amount of shedding
+              and prevent matted and tangled fur that can prove to be extremely
+              difficult to remove. Check for insects such as ticks and fleas,
+              especially after visiting heavily wooded areas. Bathing is not
+              only important to your dog’s health but can be an exercise
+              depending on how strong willed the dog is. Rinse all of the soap
+              out, as any residual soap can result in a rash. Be sure the soap
+              is formulated for your puppy or dog, since harsh soaps can cause
+              allergic reactions. And as always, be careful how you handle your
+              loved one. No matter the size of your dog, you need to be cautious
+              as you carry your canine. If you have a small dog, then cradle the
+              pup with one hand under the chest and the forearm supporting the
+              back half. If it is a large dog, reach under the belly with both
+              your arms perpendicular to the dog, and use each arm to support
+              the chest and rear as you lift.
+            </span>
+            <br />
+            <br />
+            <br />
+            <br />
+            <span>Vaccinations &amp; Medications</span>
+            <br />
+            <br />
+            <span>
+              You should always consult with your veterinarian, but there is a
+              core set of vaccines that are typically recommended. Vaccines that
+              reduce the exposure risk to things such as hepatitis, rabies, and
+              parvovirus. Others may be determined by your vet depending on the
+              environment in which the dog resides. Some of these include
+              Bordetella bronchiseptica, Borrelia burgdorferi, and Leptospira
+              bacteria.
+            </span>
+            <br />
+            <br />
+          </span>
+        </div>
+        <div
+          class="footer-component-container footer-component-root-class-name"
+        >
+          <header
+            data-thq="thq-navbar"
+            class="footer-component-footer-component"
+          >
+            <img
+              alt="pastedImage"
+              src="public/external/pastedimage-l9jl-200w.png"
+              class="footer-component-pasted-image"
+            />
+            <div class="footer-component-container1">
+              <div
+                data-thq="thq-navbar-nav"
+                class="footer-component-desktop-menu"
+              >
+                <img
+                  alt="pastedImage"
+                  src="public/external/pastedimage-awho-200h.png"
+                  class="footer-component-pasted-image1"
+                />
+                <nav class="footer-component-links">
+                  <a href="contact-form.html" class="footer-component-navlink">
+                    <span>Contact Us</span>
+                  </a>
+                  <span class="footer-component-text"><span>FAQs</span></span>
+                  <span class="footer-component-text1"><span>About</span></span>
+                </nav>
+                <div class="footer-component-buttons"></div>
+              </div>
+            </div>
+            <div
+              data-thq="thq-burger-menu"
+              class="footer-component-burger-menu"
+            >
+              <svg viewBox="0 0 1024 1024" class="footer-component-icon">
+                <path
+                  d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                ></path>
+              </svg>
+            </div>
+            <div
+              data-thq="thq-mobile-menu"
+              class="footer-component-mobile-menu"
+            >
+              <div class="footer-component-nav">
+                <div class="footer-component-top">
+                  <img
+                    alt="image"
+                    src="https://presentation-website-assets.teleporthq.io/logos/logo.png"
+                    class="footer-component-logo"
+                  />
+                  <div
+                    data-thq="thq-close-menu"
+                    class="footer-component-close-menu"
+                  >
+                    <svg
+                      viewBox="0 0 1024 1024"
+                      class="footer-component-icon02"
+                    >
+                      <path
+                        d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+                <nav class="footer-component-links1">
+                  <span class="footer-component-text2"><span>About</span></span>
+                  <span class="footer-component-text3">
+                    <span>Features</span>
+                  </span>
+                  <span class="footer-component-text4">
+                    <span>Pricing</span>
+                  </span>
+                  <span class="footer-component-text5"><span>Team</span></span>
+                  <span class="footer-component-text6"><span>Blog</span></span>
+                </nav>
+                <div class="footer-component-buttons1">
+                  <button class="footer-component-login button">
+                    <span>Login</span>
+                  </button>
+                  <button class="button"><span>Register</span></button>
+                </div>
+              </div>
+              <div>
+                <svg
+                  viewBox="0 0 950.8571428571428 1024"
+                  class="footer-component-icon04"
+                >
+                  <path
+                    d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"
+                  ></path></svg
+                ><svg
+                  viewBox="0 0 877.7142857142857 1024"
+                  class="footer-component-icon06"
+                >
+                  <path
+                    d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"
+                  ></path></svg
+                ><svg
+                  viewBox="0 0 602.2582857142856 1024"
+                  class="footer-component-icon08"
+                >
+                  <path
+                    d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+          </header>
+        </div>
+      </div>
+    </div>
+    <script
+      defer=""
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+  </body>
+</html>
